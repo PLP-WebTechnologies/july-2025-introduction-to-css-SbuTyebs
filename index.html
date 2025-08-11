@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A simple web page demonstrating the use of CSS for styling.">
+    <meta name="keywords" content="CSS, web development, styling, HTML">
+    <title>Getting Into Style with CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Getting into Style with CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#what-is-css">What is CSS?</a></li>
+                <li><a href="#why-use-css">Why Use CSS?</a></li>
+                <li><a href="#benefits">Benefits of Using CSS</a></li>
+                <li><a href="#linking-css">How to Link CSS to HTML</a></li>
+                <li><a href="#basic-syntax">Basic CSS Syntax</a></li>
+                <li><a href="#expert-tips">Expert Tips for using CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Introduction</h2>
+            <p>
+                This is a simple web page to demonstrate the use of CSS for styling. 
+                It is styled using an external CSS file, the most recommended way to style web pages.
+                The CSS file is linked in the head section of this HTML document.
+                The major advantage of using an external CSS file is that it allows you to keep your HTML clean and separate from styling rules.
+                This makes it easier to maintain and update the styles without altering the HTML structure.
+            </p>
+        <h2>What is CSS?</h2>
+        <p>
+            CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation of a document written in HTML or XML.
+            CSS controls the layout of multiple web pages all at once, allowing for consistent styling across a website.
+            It can be used to change colors, fonts, spacing, and many other aspects of web design.
+        </p>
+
+        <section>
+            <h2>Why Use CSS?</h2>
+            <p>
+                CSS is essential for web development because it enhances the visual appeal of web pages and improves user experience.
+                It allows developers to create visually engaging designs that are also functional and accessible.
+                By separating content from design, CSS makes it easier to manage and update styles without affecting the underlying HTML structure.
+            </p>
+        <h2>Benefits of Using CSS</h2>
+            <ul>
+                <li>Separation of content and style: CSS allows you to keep your HTML structure clean and focused on content.</li>
+                <li>Reusability: You can apply the same styles to multiple elements or pages, reducing redundancy.</li>
+                <li>Maintainability: Changes to styles can be made in one place, affecting all linked pages.</li>
+                <li>Improved loading times: External CSS files can be cached by browsers, speeding up page load times.</li>
+                <li>Responsive design: CSS makes it easier to create designs that adapt to different screen sizes and devices.</li>
+            </ul>
+        </section>
+       
+       <section>
+         <h2>How to Link CSS to HTML</h2>
+            <p>
+                To link a CSS file to an HTML document, you use the `<link>` tag in the `<head>` section of your HTML file. 
+                For example:
+                <pre>
+                    &lt;link rel="stylesheet" href="styles.css"&gt;
+                </pre>
+            </p>
+        </section>
+
+        <section>
+            <h2>Basic CSS Syntax</h2>
+            <p>
+                CSS is made up of selectors and declarations. A selector targets the HTML element you want to style, and a declaration consists of a property and a value.
+                Here’s an example:
+            </p>
+            <pre>
+                p {
+                    color: blue;
+                    font-size: 16px;
+                }
+            </pre>
+            <p>
+                In this example, the selector is `p`, which targets all `<p>` elements, and the declarations set the text color to blue and the font size to 16 pixels.
+            </p>
+        </section>
+        
+        <section>
+            <h2>Expert Tips for using CSS</h2>
+            <p>
+                Here are some expert tips to enhance your CSS skills:
+                <ul>
+                    <li>Use classes and IDs wisely to target specific elements without overusing inline styles.</li>
+                    <li>Organize your CSS file with comments and sections for better readability.</li>
+                    <li>Utilize CSS preprocessors like SASS or LESS for advanced features like variables and nesting.</li>
+                    <li>Test your styles across different browsers to ensure compatibility.</li>
+                    <li>Keep learning and experimenting with new CSS features and techniques.</li>
+                </ul>
+            </p>    
+        </section>
+    </main>
+</body>
+</html>
+
+<footer>
+    <p>&copy; 2023 My Web Page</p>
+</footer>
